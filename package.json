@@ -1,0 +1,26 @@
+{
+  "name": "poviomobilechallenge",
+  "version": "1.0.0",
+  "description": "\"#PovioMobileChallenge\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uffman/PovioMobileChallenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uffman/PovioMobileChallenge/issues"
+  },
+  "homepage": "https://github.com/Uffman/PovioMobileChallenge#readme",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^2.2.4"
+  }
+}
