@@ -1,0 +1,67 @@
+[{
+    "id": "4bc843f36501c9b6e1c33f29",
+    "name": "Gostilna Pri Stričku",
+    "description": "Domača gostilna, kuhinja kot doma",
+    "type": ["dailyMeals"],
+    "location": {
+        "address": "Kodrova ul. 8",
+        "city": "Ljubljana",
+        "lat": 46.069705793520995,
+        "lng": 14.539301939045632
+    }
+}, {
+    "id": "4b87c266f964a52098ca31e3",
+    "name": "Cubo",
+    "description": "All sorts of risoto, pasta",
+    "type": ["italian", "risoto", "pasta"],
+    "location": {
+        "address": "Šmartinska c. 55",
+        "city": "Ljubljana",
+        "lat": 46.064094055410465,
+        "lng": 14.527517983306163
+    }
+}, {
+    "id": "2e34c824f74bba12bf1b9ba0e93cd0d5adc90ad5",
+    "name": "Kratochwill",
+    "description": "Pizza place",
+    "type": ["pizza", "dailyMeals"],
+    "location": {
+        "address": "Šmartinska cesta 152",
+        "city": "Ljubljana",
+        "lat": 46.0702795,
+        "lng": 14.5419729
+    }
+}, {
+    "id": "4df26f3e22718759f81c113b",
+    "name": "Čompa",
+    "description": "Steakhouses",
+    "type": ["Steakhouses", "stakes"],
+    "location": {
+        "address": "Trubarjeva 40",
+        "city": "Ljubljana",
+        "lat": 46.05249690579351,
+        "lng": 14.511234262380674
+    }
+}, {
+    "id": "50902846e4b0b1eedcff41ba",
+    "name": "Hood Burger",
+    "description": "Best burgers in town",
+    "type": ["burgers"],
+    "location": {
+        "address": "Jamova c. 105",
+        "city": "Ljubljana",
+        "lat": 46.03887830678282,
+        "lng": 14.475940976731364
+    }
+}, {
+    "id": "54f097ec498e5a9d2918a169",
+    "name": "Gostilnica 5-6 kg",
+    "description": "Pizza place",
+    "type": ["italian", "pizza"],
+    "location": {
+        "address": "Gornji trg 33",
+        "city": "Ljubljana",
+        "lat": 46.045791866228775,
+        "lng": 14.508999351739504
+    }
+}]

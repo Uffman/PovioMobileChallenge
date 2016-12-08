@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-xs-12">
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search" ng-model="$ctrl.searchQuery">
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <ul class="list-group">
+            <li class="list-group-item povio-list-item" ng-repeat="restaurant in $ctrl.restaurants | filter:$ctrl.searchQuery">
+                <div class="col-xs-3" style="height: 100%;">
+                    <img src="" alt="" class="img-responsive povio-img-thumb" />
+                </div>
+                <div class="col-xs-8">
+                    <div>{{restaurant.name}}</div>
+                    <div>{{restaurant.description}}</div>
+                    <div>{{restaurant.location.address}}</div>
+                </div>
+                <div class="col-xs-1 vcenter">
+                    <a href="#!/restaurants/{{restaurant.id}}">
+                        <i class="fa fa-angle-right fa-4x"></i>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

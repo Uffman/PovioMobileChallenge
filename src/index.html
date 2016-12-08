@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html class="no-js" ng-app="restaurantApp">
 <!--<![endif]-->
 
 <head>
@@ -35,10 +35,10 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <!--<ul class="nav navbar-nav">
                     <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
                     <li><a href="#">Link</a></li>
-                </ul>
+                </ul>-->
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -46,91 +46,24 @@
     </nav>
     <div>
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <ul class="list-group">
-                        <li class="list-group-item povio-list-item">
-                            <div class="col-xs-3" style="height: 100%;">
-                                <img src="" alt="" class="img-responsive povio-img-thumb" />
-                            </div>
-                            <div class="col-xs-8">
-                                <div>Title</div>
-                                <div>Opis</div>
-                                <div>Tip</div>
-                            </div>
-                            <div class="col-xs-1 vcenter">
-                                <i class="fa fa-angle-right fa-4x"></i>
-                            </div>
-                        </li>
-                        <li class="list-group-item povio-list-item">
-                            <div class="col-xs-3" style="height: 100%;">
-                                <img src="" alt="" class="img-responsive povio-img-thumb" />
-                            </div>
-                            <div class="col-xs-8">
-                                <div>Title</div>
-                                <div>Opis</div>
-                                <div>Tip</div>
-                            </div>
-                            <div class="col-xs-1 vcenter">
-                                <i class="fa fa-angle-right fa-4x"></i>
-                            </div>
-                        </li>
-                        <li class="list-group-item povio-list-item">
-                            <div class="col-xs-3" style="height: 100%;">
-                                <img src="" alt="" class="img-responsive povio-img-thumb" />
-                            </div>
-                            <div class="col-xs-8">
-                                <div>Title</div>
-                                <div>Opis</div>
-                                <div>Tip</div>
-                            </div>
-                            <div class="col-xs-1 vcenter">
-                                <i class="fa fa-angle-right fa-4x"></i>
-                            </div>
-                        </li>
-                        <li class="list-group-item povio-list-item">
-                            <div class="col-xs-3" style="height: 100%;">
-                                <img src="" alt="" class="img-responsive povio-img-thumb" />
-                            </div>
-                            <div class="col-xs-8">
-                                <div>Title</div>
-                                <div>Opis</div>
-                                <div>Tip</div>
-                            </div>
-                            <div class="col-xs-1 vcenter">
-                                <i class="fa fa-angle-right fa-4x"></i>
-                            </div>
-                        </li>
-                        <li class="list-group-item povio-list-item">
-                            <div class="col-xs-3" style="height: 100%;">
-                                <img src="" alt="" class="img-responsive povio-img-thumb" />
-                            </div>
-                            <div class="col-xs-8">
-                                <div>Title</div>
-                                <div>Opis</div>
-                                <div>Tip</div>
-                            </div>
-                            <div class="col-xs-1 vcenter">
-                                <i class="fa fa-angle-right fa-4x"></i>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+              <div ng-view></div>
+             <!--<restaurant-list></restaurant-list>-->
         </div>
     </div>
+    <!-- vendor-->
     <script src="/node_modules/jquery/dist/jquery.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/node_modules/angular/angular.js"></script>    
+    <script src="/node_modules/angular-route/angular-route.js"></script>
+    <!-- app-->
+    <script src="app/app.module.js"></script>
+    <script src="app/app.config.js"></script>
+    <script src="app/data/data.module.js"></script>
+    <script src="app/data/dataContext.js"></script>
+    <script src="app/core/core.module.js"></script>    
+    <script src="app/core/services.js"></script>
+    <script src="app/restaurant-list/restaurant-list.js"></script>
+    <script src="app/restaurant-detail/restaurant-detail.js"></script>
 </body>
 
 </html>

@@ -1,9 +1,10 @@
 {
-  "name": "poviomobilechallenge",
+  "name": "povio-mobile-challenge",
   "version": "1.0.0",
-  "description": "\"#PovioMobileChallenge\"",
-  "main": "index.js",
+  "description": "\"#PovioMobileChallenge\"",  
   "scripts": {
+    "prestart": "npm install",
+    "start": "http-server ./ -a localhost -p 8000 -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,9 +19,12 @@
   "homepage": "https://github.com/Uffman/PovioMobileChallenge#readme",
   "dependencies": {
     "angular": "^1.5.9",
+    "angular-resource": "^1.5.9",
+    "angular-route": "^1.5.9",
     "bootstrap": "^3.3.7",
     "express": "^4.14.0",
     "font-awesome": "^4.7.0",
+    "http-server": "^0.9.0",
     "jquery": "^2.2.4"
   }
 }
