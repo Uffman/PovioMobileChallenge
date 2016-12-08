@@ -1,20 +1,24 @@
-angular
-    .module('restaurantApp')
-    .component('restaurantDetail', {
-        templateUrl: 'app/restaurant-detail/restaurant-detail.html',
-        controller: PhoneDetailController
-    });
+(function () {
+    'use strict';
 
-PhoneDetailController.$inject = ['RestaurantService', '$routeParams'];
+    angular
+        .module('restaurantApp')
+        .component('restaurantDetail', {
+            templateUrl: 'app/restaurant-detail/restaurant-detail.html',
+            controller: PhoneDetailController
+        });
 
-function PhoneDetailController(RestaurantService, $routeParams) {
-    var self = this;
-  
-    RestaurantService.getById($routeParams.id).then(function (response) {  
-        self.restaurant = response;        
-    });  
+    PhoneDetailController.$inject = ['RestaurantService', '$routeParams'];
 
-    self.goBack = function () {
-        window.history.back();
-    };
-}
+    function PhoneDetailController(RestaurantService, $routeParams) {
+        var self = this;
+
+        RestaurantService.getById($routeParams.id).then(function (response) {
+            self.restaurant = response;
+        });
+
+        self.goBack = function () {
+            window.history.back();
+        };
+    }
+})();
