@@ -7,7 +7,8 @@
         "address": "Kodrova ul. 8",
         "city": "Ljubljana",
         "lat": 46.069705793520995,
-        "lng": 14.539301939045632
+        "lng": 14.539301939045632,
+        "imageUrl": "https://irs0.4sqi.net/img/general/100x100/WIJR0FRZ3OTJPHS2DF1NLBMYDGU5ATSSRHI5H5QPACZOLFVP.jpg"
     }
 }, {
     "id": "4b87c266f964a52098ca31e3",
@@ -18,7 +19,8 @@
         "address": "Šmartinska c. 55",
         "city": "Ljubljana",
         "lat": 46.064094055410465,
-        "lng": 14.527517983306163
+        "lng": 14.527517983306163,
+        "imageUrl": "https://irs0.4sqi.net/img/general/100x100/768029_63c8PxAwkgfStlUE0vaGcU39DYODWa1FN02gpG_2uH0.jpg"
     }
 }, {
     "id": "2e34c824f74bba12bf1b9ba0e93cd0d5adc90ad5",
@@ -29,7 +31,8 @@
         "address": "Šmartinska cesta 152",
         "city": "Ljubljana",
         "lat": 46.0702795,
-        "lng": 14.5419729
+        "lng": 14.5419729,
+        "imageUrl": "http://www.kratochwill.si/web/wp-content/themes/carrington-jam/img/logo_kratochwill.png"
     }
 }, {
     "id": "4df26f3e22718759f81c113b",
@@ -40,7 +43,8 @@
         "address": "Trubarjeva 40",
         "city": "Ljubljana",
         "lat": 46.05249690579351,
-        "lng": 14.511234262380674
+        "lng": 14.511234262380674,
+        "imageUrl": "https://irs3.4sqi.net/img/general/100x100/18935166_s5kcL5wVMxtUUQdeKMJtJRILzOalMvx_AM1RsKA3UYI.jpg"
     }
 }, {
     "id": "50902846e4b0b1eedcff41ba",
@@ -51,7 +55,8 @@
         "address": "Jamova c. 105",
         "city": "Ljubljana",
         "lat": 46.03887830678282,
-        "lng": 14.475940976731364
+        "lng": 14.475940976731364,
+        "imageUrl": "https://irs0.4sqi.net/img/general/100x100/4293803_kBxG5x1FStdpO467syij2ZRn3mBp0Vgdkn8CillhGoY.jpg"
     }
 }, {
     "id": "54f097ec498e5a9d2918a169",
@@ -62,6 +67,7 @@
         "address": "Gornji trg 33",
         "city": "Ljubljana",
         "lat": 46.045791866228775,
-        "lng": 14.508999351739504
+        "lng": 14.508999351739504,
+        "imageUrl": "https://irs2.4sqi.net/img/general/100x100/139670217_hhsHSNYph9GNd9Ia53KOCkN45A-fPS-U-yXSEpe_grM.jpg"
     }
 }]

@@ -12,7 +12,7 @@
         <ul class="list-group">
             <li class="list-group-item povio-list-item" ng-repeat="restaurant in $ctrl.restaurants | filter:$ctrl.searchQuery">
                 <div class="col-xs-3" style="height: 100%;">
-                    <img src="" alt="" class="img-responsive povio-img-thumb" />
+                    <img  ng-src="{{restaurant.location.imageUrl}}"src="" alt="" class="img-responsive povio-img-thumb" />
                 </div>
                 <div class="col-xs-8">
                     <div>{{restaurant.name}}</div>
